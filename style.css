@@ -1,0 +1,290 @@
+/* Bakgrunn */
+body{
+	background: url(bkgd.png) 3px 0 repeat-x;
+	color: #32CD32;
+	background-color: #091626;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#regnavn
+{
+margin-right:-65%;
+margin-top: -5%;
+
+}
+#kurvtabell
+{
+margin-left: 27%;
+margin-right: auto;
+margin-top: auto;
+margin-bottom:auto;
+}
+
+#frakt {
+margin-left: 40%;
+margin-right: auto;
+margin-top: auto;
+margin-bottom:auto;
+
+}
+
+
+/* Header bar */
+#head{
+	height: 9.8em;
+	width: 66%;
+	padding: 1%;
+	border: 1px solid black;
+	margin-left: 13em;
+	margin-top: -0.5%;
+	background-color: #000000;
+	text-align: center;	
+}
+
+/* Header overskrift (logo) */
+#overskrift{
+	background-image: url(header3.png);
+	background-repeat: no-repeat;
+	z-index: -1;
+	height: 9em;
+	width: 85%;
+	padding: 1%;
+	margin-left: 9em;
+	margin-top: -1%;
+	text-align: center;
+}
+
+/* Header Meny Linje */
+#menu1{
+	width: 66.2%;
+	margin-left: 13em;
+	margin-top: -0.6%;
+
+}
+
+/* Header Meny */
+/* http://www.dynamicdrive.com/style/csslibrary/item/glossy_horizontal_menu/P50/ */
+.glossymenu{
+	position: relative;
+	padding: 0 0 0 2em;
+	margin: 0 auto 0 auto;
+	background: url(menur_bg.gif) repeat-x; /*tab background image path*/
+	height: 46px;
+	list-style: none;
+	width: 99.5%;
+}
+
+.glossymenu li{
+	float:left;
+}
+
+.glossymenu li a{
+	float: left;
+	display: block;
+	color:#000000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding:0 0 0 16px; /*Padding to accomodate left tab image. Do not change*/
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	cursor: pointer;	
+}
+
+.glossymenu li a b{
+	float: left;
+	display: block;
+	padding: 0 24px 0 8px; /*Padding of menu items*/
+}
+
+.glossymenu li.current a, .glossymenu li a:hover{
+	color: #fff;
+	background: url(menur_hover_left.gif) no-repeat; /*left tab image path*/
+	background-position: left;
+}
+
+.glossymenu li.current a b, .glossymenu li a:hover b{
+	color: #fff;
+	background: url(menur_hover_right.gif) no-repeat right top; /*right tab image path*/
+}
+
+/*Sidemeny*/
+#sidemenu {
+	float: left;
+	width: 10%;
+	border-width: 1px;
+	border: 1px solid white;
+	background-color: #000000;
+	margin-top: 2.5em;
+}
+
+/* Rammen i midten */
+#innhold {
+	width: 66%;
+	padding: 1%;
+    background-color: #000000;
+    margin-left: 13em;
+	margin-top: 2.5em;
+	border: 1px solid white;
+	text-align: center;
+	position: relative;
+}
+#reklame {
+
+	width: 620px;
+	height: 480px;
+	padding: 0px;
+    background-image: url('ukens-pc.jpg');
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 2.5em;
+	border: 1px solid white;
+}
+#innhold p{ 
+	display:block;
+}
+
+/* Høyre mest solgte baren*/
+#høyretopp {
+	float: right;
+	width: 13%;
+	border-width: 0px;
+	border: 1px solid white;
+	background-color: #000000;
+	margin-top: 2.5em;
+	height: 35em
+	position:relative;
+}
+
+/* Høyre baren på admin*/
+#høyretopp1 {
+	float: right;
+	width: 13%;
+	border-width: 1px;
+	border: 1px solid white;
+	background-color: #000000;
+	margin-top: 2.5em;
+	height: 11em
+}
+
+/* Mest solgte*/
+#topp1 {
+	background-color:transparent;
+	width: 98%;
+	margin-top: 1.5em;
+	height: 5em;
+	float: right;
+}
+
+#topp2 {
+	background-color:transparent;
+	width: 98%;
+	margin-top: 1.5em;
+	height: 5em;
+	float: right;
+}
+
+#topp3 {
+	background-color:transparent;
+	width: 98%;
+	margin-top: 1.5em;
+	height: 5em;
+	float: right;
+}
+
+#topp4 {
+	background-color:transparent;
+	width: 98%;
+	margin-top: 1.5em;
+	height: 5em;
+	float: right;
+}
+
+#topp5 {
+	background-color:transparent;
+	width: 98%;
+	margin-top: 1.5em;
+	height: 5em;
+	float: right;
+}
+
+#main {
+	width: 100%;
+	margin: auto;
+}
+  
+/* BUNN Meny*/
+#menu2{
+	width: 68%;
+	display:block;
+	margin-left: 13em;
+}  
+
+.glossymenu1{
+	display:block;
+	float:right;
+}
+
+.glossymenu1 li{
+	float:left;
+	list-style:none;
+	border-left:1px solid #333;
+}
+
+.glossymenu1 li:first-child {
+	border:0;
+}
+
+.glossymenu1 li a{
+	display: block;
+	color:#CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	padding:2px 10px;
+}
+
+/* Farge på overskrift */
+h1 {
+	color: #FF4500;
+}
+
+/* Farge link */
+	a:link {color: #FFFFFF; text-decoration:none;}
+	a:visited {color: #FFFFFF;}
+	a:hover {color: #FF1493; text-decoration:underline}
+
+/* Bilde av betalingsløsninger */
+div.bilde1
+{
+	display:block;
+	clear:both;
+}
+/* Bilde av ansatte */
+#bildeansatt
+{
+	margin-right: 10px;
+	clear: both;
+	display: block;
+}
+
+/* Loginn og minside boks */
+#logginnbox
+{
+	z-index: 1;
+	float: right;
+	margin-top: -13.5%;
+	margin-right: 0%;
+	height: 40px;
+	width: 100px;
+}
+#admin
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}

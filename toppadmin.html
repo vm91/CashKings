@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<meta name="keywords" content="Cashkings, nettbutikk, salg, butikk, cashkings.no">
+	<meta name="description" content="Netbutikk">
+	
+	<title> CashKings.no </title>
+	<link rel="stylesheet" type="text/css" href="style.css" title="index">
+</head>
+<body>
+<div id="head">
+	<div id="overskrift">
+	</div>
+	<div id="logginnbox">
+		<ul class="admin">
+		<?php
+		
+		if (isset($_SESSION['admin'])) {  
+		echo $_SESSION['admin']."</br>";
+		echo '<a href="loggut.php">Logg ut</a><br><br>';
+		}
+		else{  
+		echo '<a href="logginn.php">Logg inn</a><br><br>';
+		} 
+		?>
+		<a href="handlekurv.php"><img src="insert_to_shopping_cart.png" alt="Handlekurv" width="50" height="40" title="Handlekurv">
+		</ul>
+	</div>
+</div>
